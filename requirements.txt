@@ -7,3 +7,10 @@ scikit-learn
 beautifulsoup4
 requests
 plotly
+streamlit
+scikit-learn==1.4.2
+tensorflow==2.14.0
+joblib
+beautifulsoup4
+requests
+plotly
