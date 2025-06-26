@@ -2,7 +2,7 @@ streamlit
 pandas
 numpy
 scikit-learn==1.4.2
-tensorflow==2.14.0
+tensorflow==2.16.1
 joblib
 beautifulsoup4
 requests
