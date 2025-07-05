@@ -67,7 +67,7 @@ def update_history_manually(csv_path="masi_history_ready.csv"):
 # ------------------------
 try:
     model = load_model("modele_masi.keras")
-    scaler = joblib.load("scaler.save")
+    scaler = joblib.load("scaler_masi.pkl")
 except Exception as e:
     st.error(f"Erreur lors du chargement du modèle ou du scaler : {e}")
     st.stop()
